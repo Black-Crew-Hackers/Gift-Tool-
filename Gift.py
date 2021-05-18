@@ -2,6 +2,7 @@ from os import system
 from time import sleep
 import sys 
 import time
+system ('\033[0;32m')
 system ('figlet Gift tool ')
 
 print ('{1} Gift For termux ')
